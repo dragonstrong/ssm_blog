@@ -2,6 +2,9 @@
 基于SSM的个人博客系统
 
 ## 一、首页
+
+<img src="https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png" style="zoom:50%"  alt="搜索"/><br/>
+
 ![image](https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png){:height="50%" width="50%"}
 搜索
 ![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png){:height="50%" width="50%"}
@@ -28,11 +31,11 @@
 
 ### 6、修改个人信息
 <div align=center>
-<img src="https://user-images.githubusercontent.com/32926995/188899989-a2fbb56d-70e1-42ab-a3e4-a440c75f7da8.png"  alt="修改个人信息"/><br/>
+<img src="https://user-images.githubusercontent.com/32926995/188899989-a2fbb56d-70e1-42ab-a3e4-a440c75f7da8.png" style="zoom:50%"  alt="修改个人信息"/><br/>
 </div>
 
 ### 7、系统管理
 <div align=center>
-<img src="https://user-images.githubusercontent.com/32926995/188900103-3b623482-e23f-4605-b579-499fe5b79d7a.png"  alt="系统管理"/><br/>
+<img src="https://user-images.githubusercontent.com/32926995/188900103-3b623482-e23f-4605-b579-499fe5b79d7a.png" style="zoom:50%" alt="系统管理"/><br/>
 </div>
 
