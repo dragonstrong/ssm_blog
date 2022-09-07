@@ -6,14 +6,6 @@
 搜索
 ![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png)
 
-<div align=left>
-<img src="https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png" width="300" height="300" alt="首页" loca/><br/>
-</div>
-<div align=right>
-<img src="https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png" width="300" height="300" alt="搜素" loca/><br/>
-</div>
-
-
 ## 二、登录与注册
 ![image](https://user-images.githubusercontent.com/32926995/188898840-6073e558-e97a-4935-bb3e-27c7b6b12e25.png)
 ![image](https://user-images.githubusercontent.com/32926995/188899004-83d592ab-083f-42f9-940a-609d49540140.png)
@@ -35,7 +27,12 @@
 ![image](https://user-images.githubusercontent.com/32926995/188899838-d39ef46d-3857-4db0-9c43-650e163db1d7.png)
 
 ### 6、修改个人信息
-![image](https://user-images.githubusercontent.com/32926995/188899989-a2fbb56d-70e1-42ab-a3e4-a440c75f7da8.png)
+<div align=center>
+<img src="https://user-images.githubusercontent.com/32926995/188899989-a2fbb56d-70e1-42ab-a3e4-a440c75f7da8.png"  alt="修改个人信息"/><br/>
+</div>
 
 ### 7、系统管理
-![image](https://user-images.githubusercontent.com/32926995/188900103-3b623482-e23f-4605-b579-499fe5b79d7a.png)
+<div align=center>
+<img src="https://user-images.githubusercontent.com/32926995/188900103-3b623482-e23f-4605-b579-499fe5b79d7a.png"  alt="系统管理"/><br/>
+</div>
+
