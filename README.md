@@ -1,33 +1,34 @@
 # ssm_blog
 基于SSM的个人博客系统
 
-一、首页
+## 一、首页
 ![image](https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png)
 搜索
 ![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png)
 
 
-二、登录与注册
+## 二、登录与注册
 ![image](https://user-images.githubusercontent.com/32926995/188898840-6073e558-e97a-4935-bb3e-27c7b6b12e25.png)
 ![image](https://user-images.githubusercontent.com/32926995/188899004-83d592ab-083f-42f9-940a-609d49540140.png)
 
-三、后台
+## 三、后台
+### 1.后台首页
 ![image](https://user-images.githubusercontent.com/32926995/188899276-e4c1b176-0acc-4cdd-8199-895fe9b529eb.png)
 
-写博客
+### 2、写博客
 ![image](https://user-images.githubusercontent.com/32926995/188899429-e4ebe045-b392-4723-8383-6e14bddf7df0.png)
 
-博客信息管理
+### 3、博客信息管理
 ![image](https://user-images.githubusercontent.com/32926995/188899550-09ba5774-6e59-43c3-ae18-8e639a3dedaf.png)
 
-博客类别管理
+### 4、博客类别管理
 ![image](https://user-images.githubusercontent.com/32926995/188899703-5150522f-b1cf-4ea9-a11d-e55c2145cb69.png)
 
-个人信息
+### 5、个人信息
 ![image](https://user-images.githubusercontent.com/32926995/188899838-d39ef46d-3857-4db0-9c43-650e163db1d7.png)
 
-修改个人信息
+### 6、修改个人信息
 ![image](https://user-images.githubusercontent.com/32926995/188899989-a2fbb56d-70e1-42ab-a3e4-a440c75f7da8.png)
 
-系统管理
+### 7、系统管理
 ![image](https://user-images.githubusercontent.com/32926995/188900103-3b623482-e23f-4605-b579-499fe5b79d7a.png)
