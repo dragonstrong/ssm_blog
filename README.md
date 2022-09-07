@@ -3,10 +3,10 @@
 基于SSM的个人博客系统
 
 ## 一、首页
-
+### 1、博客首页
 <img src="https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png" style="zoom:50%"  alt="搜索"/><br/>
 
-搜索
+### 2、搜索功能
 ![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png)
 
 ## 二、登录与注册
