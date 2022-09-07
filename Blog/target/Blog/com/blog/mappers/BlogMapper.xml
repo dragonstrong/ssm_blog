@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--mappers文件夹里的相当dao的实现，此处实现BlogDao接口:写的是SQL语句-->
+
+<!--定义mapper的具体内容-->
+<mapper namespace="com.blog.dao.BlogDao">
+
+    <!--定义Blog对象-->
+    <resultMap type="Blog" id="BlogResult">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="summary" column="summary"/>
+        <result property="releaseDate" column="releaseDate"/>
+        <result property="clickHit" column="clickHit"/>
+        <result property="replyHit" column="replyHit"/>
+        <result property="content" column="content"/>
+        <result property="keyWord" column="keyWord"/>
+        <result property="typeId" column="typeId"/>
+
+
+        <!--联系属性:Blog类和BlogType连接起来（用Blog类里的typeId字段查询所属博客类型，调用BlogTypeDao的方法）-->
+        <association property="blogType" column="typeId" select="com.blog.dao.BlogTypeDao.findById"/>
+    </resultMap>
+
+
+    <!--BlogDao里的countList方法-->
+    <select id="countList" resultMap="BlogResult">
+        select date_format(releaseDate,'%Y年%m月') as releaseDateStr,count(*) as blogCount from t_blog    <!--只需返回发表时间(格式化)和博客数量-->
+        group by date_format(releaseDate,'%Y年%m月')          <!--按发表时间分组-->
+        order by date_format(releaseDate,'%Y年%m月') desc   <!--按发表时间倒序排列-->
+    </select>
+
+
+    <!--BlogDao里的list方法-->
+    <select id="list" parameterType="Map" resultMap="BlogResult">
+        select * from t_blog
+        <where>
+            <if test="title!=null and title!=''">
+                and title like #{title}  <!--模糊查询-->
+            </if>
+            <if test="typeId!=null and typeId!=''">
+                and typeId=#{typeId}  <!--根据typeId查询-->
+            </if>
+            <if test="releaseDateStr!=null and releaseDateStr!=''">
+                and date_format(releaseDate,'%Y年%m月')=#{releaseDateStr}  <!--根据日期查询-->
+            </if>
+        </where>
+        order by releaseDate desc <!--时间倒序-->
+        <if test="start!=null and size!=''">
+            limit #{start},#{size}  <!--分页-->
+        </if>
+    </select>
+
+
+    <!--BlogDao里的getTotal方法-->
+    <select id="getTotal" parameterType="Map" resultType="Long">
+        select count(*) from t_blog
+        <where>
+            <if test="title!=null and title!=''">
+                and title like #{title}  <!--模糊查询-->
+            </if>
+            <if test="typeId!=null and typeId!=''">
+                and typeId=#{title}  <!--根据typeId查询-->
+            </if>
+            <if test="releaseDateStr!=null and releaseDateStr!=''">
+                and date_format(releaseDate,'%Y年%m月')=#{releaseDateStr}  <!--根据日期查询-->
+            </if>
+        </where>
+    </select>
+
+
+
+    <!--BlogDao里的findById方法-->
+    <select id="findById" parameterType="Integer" resultMap="BlogResult">  <!--返回类型为什么是Map?-->
+        select * from t_blog where id=#{id}   <!--id为dao里接口传入的参数-->
+    </select>
+
+
+
+    <!--BlogDao里的add方法-->
+    <insert id="add" useGeneratedKeys="true" keyProperty="id" parameterType="Blog">
+        insert into t_blog(id,title,summary,releaseDate,clickHit,replyHit,content,typeId,keyWord)
+        VALUE(null,#{title},#{summary},now(),0,0,#{content},#{blogType.id},#{keyWord})
+    </insert>
+
+
+    <!--BlogDao里的update方法-->
+    <update id="update" parameterType="Blog">
+        update t_blog
+        <set>
+            <if test="title!=null and title!=''">
+                title=#{title},    <!--注意有逗号-->
+            </if>
+            <if test="summary!=null and summary!=''">
+                summary=#{summary},
+            </if>
+            <if test="clickHit!=null">
+                clickHit=#{clickHit},
+            </if>
+            <if test="replyHit!=null">
+                replyHit=#{replyHit},
+            </if>
+            <if test="content!=null and content!=''">
+                content=#{content},
+            </if>
+            <if test="blogType.id!=null">
+                typeId=#{blogType.id},
+            </if>
+            <if test="keyWord!=null and keyWord!=''">
+                keyWord=#{keyWord},
+            </if>
+
+        </set>
+        where id=#{id}
+    </update>
+
+    <!--BlogDao里的delete方法-->
+    <delete id="delete" parameterType="Integer">
+        delete from t_blog where id=#{id}
+    </delete>
+
+
+    <!--BlogDao里的getBlogByTypeId方法-->
+    <select id="getBlogByTypeId" parameterType="Integer" resultType="Integer">
+        select count(*) from t_blog where typeId=#{typeId}
+    </select>
+
+
+</mapper>

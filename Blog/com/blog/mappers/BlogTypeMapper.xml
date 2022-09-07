@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--mappers文件夹里的相当dao的实现，此处实现BlogTypeDao接口:写的是SQL语句-->
+
+<!--定义mapper的具体内容-->
+<mapper namespace="com.blog.dao.BlogTypeDao">
+
+    <!--定义BlogType对象-->
+    <resultMap type="BlogType" id="BlogTypeResult">
+        <result property="id" column="id"/>
+        <result property="typename" column="typename"/>
+        <result property="orderNo" column="orderNo"/>
+        <result property="blogCount" column="blogCount"/>
+    </resultMap>
+
+
+    <!--BlogTypeDao里的countList方法-->
+    <select id="countList" parameterType="String" resultMap="BlogTypeResult">
+        select t2.id,t2.typename,count(t1.id) as blogCount from t_blog t1   <!--blogCount为上面namespace新定义的属性-->
+        right join t_blogtype t2 on t1.typeId=t2.id group by t2.typename
+        order by t2.orderNo
+    </select>
+
+
+    <!--BlogTypeDao里的findById方法-->
+    <select id="findById" parameterType="Integer" resultMap="BlogTypeResult">  <!--返回类型为什么是Map?-->
+        select * from t_blogtype where id=#{id}   <!--id为dao里接口传入的参数-->
+    </select>
+
+    <!--BlogTypeDao里的list方法-->
+    <select id="list" parameterType="Map" resultMap="BlogTypeResult">
+        select * from t_blogtype
+        <if test="typename!=null and typename!=''">
+            where typename=#{typename}
+        </if>
+        order by orderNo
+        <if test="start!=null and size!=null">
+            limit #{start },${size }
+        </if>
+
+    </select>
+
+    <!--BlogTypeDao里的getTotal方法-->
+    <select id="getTotal" parameterType="Map" resultType="Long">
+        select count(*) from t_blogtype
+
+    </select>
+
+
+    <!--BlogTypeDao里的add方法-->
+    <insert id="add" parameterType="BlogType">
+        insert into t_blogtype(typename,orderNo) VALUE(#{typename},#{orderNo})
+    </insert>
+
+    <!--BlogTypeDao里的update方法-->
+    <update id="update" parameterType="BlogType">
+        update t_blogtype
+        <set>
+           <if test="typename!=null and typename!=''">
+               typename=#{typename},    <!--注意有逗号-->
+           </if>
+           <if test="orderNo!=null and orderNo!=''">
+               orderNo=#{orderNo},
+           </if>
+        </set>
+        where id=#{id}
+    </update>
+
+
+    <delete id="delete" parameterType="Integer">
+        delete from t_blogtype where id=#{id}
+    </delete>
+
+
+
+
+
+
+</mapper>
