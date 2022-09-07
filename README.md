@@ -7,6 +7,8 @@
 ![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png)
 
 
+<img src="https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png" width="100" height="100" alt="首页"/><br/>
+
 ## 二、登录与注册
 ![image](https://user-images.githubusercontent.com/32926995/188898840-6073e558-e97a-4935-bb3e-27c7b6b12e25.png)
 ![image](https://user-images.githubusercontent.com/32926995/188899004-83d592ab-083f-42f9-940a-609d49540140.png)
