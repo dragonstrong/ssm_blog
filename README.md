@@ -2,29 +2,29 @@
 基于SSM的个人博客系统
 
 ## 一、首页
-![image](https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png)
+![image](https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png){:height="50%" width="50%"}
 搜索
-![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png)
+![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png){:height="50%" width="50%"}
 
 ## 二、登录与注册
-![image](https://user-images.githubusercontent.com/32926995/188898840-6073e558-e97a-4935-bb3e-27c7b6b12e25.png)
-![image](https://user-images.githubusercontent.com/32926995/188899004-83d592ab-083f-42f9-940a-609d49540140.png)
+![image](https://user-images.githubusercontent.com/32926995/188898840-6073e558-e97a-4935-bb3e-27c7b6b12e25.png){:height="50%" width="50%"}
+![image](https://user-images.githubusercontent.com/32926995/188899004-83d592ab-083f-42f9-940a-609d49540140.png){:height="50%" width="50%"}
 
 ## 三、后台
 ### 1.后台首页
-![image](https://user-images.githubusercontent.com/32926995/188899276-e4c1b176-0acc-4cdd-8199-895fe9b529eb.png)
+![image](https://user-images.githubusercontent.com/32926995/188899276-e4c1b176-0acc-4cdd-8199-895fe9b529eb.png){:height="50%" width="50%"}
 
 ### 2、写博客
-![image](https://user-images.githubusercontent.com/32926995/188899429-e4ebe045-b392-4723-8383-6e14bddf7df0.png)
+![image](https://user-images.githubusercontent.com/32926995/188899429-e4ebe045-b392-4723-8383-6e14bddf7df0.png){:height="50%" width="50%"}
 
 ### 3、博客信息管理
-![image](https://user-images.githubusercontent.com/32926995/188899550-09ba5774-6e59-43c3-ae18-8e639a3dedaf.png)
+![image](https://user-images.githubusercontent.com/32926995/188899550-09ba5774-6e59-43c3-ae18-8e639a3dedaf.png){:height="50%" width="50%"}
 
 ### 4、博客类别管理
-![image](https://user-images.githubusercontent.com/32926995/188899703-5150522f-b1cf-4ea9-a11d-e55c2145cb69.png)
+![image](https://user-images.githubusercontent.com/32926995/188899703-5150522f-b1cf-4ea9-a11d-e55c2145cb69.png){:height="50%" width="50%"}
 
 ### 5、个人信息
-![image](https://user-images.githubusercontent.com/32926995/188899838-d39ef46d-3857-4db0-9c43-650e163db1d7.png)
+![image](https://user-images.githubusercontent.com/32926995/188899838-d39ef46d-3857-4db0-9c43-650e163db1d7.png){:height="50%" width="50%"}
 
 ### 6、修改个人信息
 <div align=center>
