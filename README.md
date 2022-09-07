@@ -32,9 +32,7 @@
 ![image](https://user-images.githubusercontent.com/32926995/188899838-d39ef46d-3857-4db0-9c43-650e163db1d7.png)
 
 ### 6、修改个人信息
-<div align=center>
-<img src="https://user-images.githubusercontent.com/32926995/188899989-a2fbb56d-70e1-42ab-a3e4-a440c75f7da8.png" style="zoom:50%"  alt="修改个人信息"/><br/>
-</div>
+<![image](https://user-images.githubusercontent.com/32926995/188906895-5c61b3da-4669-4b1c-b8b5-13711343e4a3.png)
 
 ### 7、系统管理
 <div align=center>
