@@ -6,8 +6,13 @@
 搜索
 ![image](https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png)
 
+<div align=left>
+<img src="https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png" width="300" height="300" alt="首页" loca/><br/>
+</div>
+<div align=right>
+<img src="https://user-images.githubusercontent.com/32926995/188898625-51f835da-8a7e-48da-9930-157c9ac36978.png" width="300" height="300" alt="搜素" loca/><br/>
+</div>
 
-<img src="https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png" width="100" height="100" alt="首页"/><br/>
 
 ## 二、登录与注册
 ![image](https://user-images.githubusercontent.com/32926995/188898840-6073e558-e97a-4935-bb3e-27c7b6b12e25.png)
