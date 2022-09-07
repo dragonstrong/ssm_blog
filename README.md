@@ -33,7 +33,6 @@
 <![image](https://user-images.githubusercontent.com/32926995/188906895-5c61b3da-4669-4b1c-b8b5-13711343e4a3.png)
 
 ### 7、系统管理
-<div align=center>
 <img src="https://user-images.githubusercontent.com/32926995/188900103-3b623482-e23f-4605-b579-499fe5b79d7a.png" style="zoom:50%" alt="系统管理"/><br/>
-</div>
+
 
