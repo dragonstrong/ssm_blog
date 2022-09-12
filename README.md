@@ -2,6 +2,9 @@
 # ssm_blog
 基于SSM的个人博客系统
 
+演示视频：
+https://github.com/dragonstrong/ssm_blog/blob/main/video/ssm%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F.mp4
+
 ## 一、首页
 ### 1、博客首页
 <img src="https://user-images.githubusercontent.com/32926995/188898397-e4dfc096-387d-4f0c-86f3-6670bedb59ff.png" style="zoom:50%"  alt="搜索"/><br/>
