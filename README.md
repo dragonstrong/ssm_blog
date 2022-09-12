@@ -3,7 +3,8 @@
 基于SSM的个人博客系统
 
 演示视频：
-https://github.com/dragonstrong/ssm_blog/blob/main/video/ssm%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F.mp4
+[![Watch the video](https://github.com/dragonstrong/ssm_blog/blob/main/video/ssm%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F.mp4)](https://github.com/dragonstrong/ssm_blog/blob/main/video/ssm%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F.mp4)
+
 
 ## 一、首页
 ### 1、博客首页
