@@ -2,8 +2,7 @@
 # ssm_blog
 基于SSM的个人博客系统
 
-演示视频：
-https://user-images.githubusercontent.com/32926995/189567291-de706dd9-439d-4f5b-bdd4-3f218ac2a826.mp4
+
 
 ## 一、首页
 ### 1、博客首页
@@ -38,4 +37,4 @@ https://user-images.githubusercontent.com/32926995/189567291-de706dd9-439d-4f5b-
 ### 7、系统管理
 <img src="https://user-images.githubusercontent.com/32926995/188900103-3b623482-e23f-4605-b579-499fe5b79d7a.png" style="zoom:50%" alt="系统管理"/>
 
-
+https://user-images.githubusercontent.com/32926995/189567291-de706dd9-439d-4f5b-bdd4-3f218ac2a826.mp4
